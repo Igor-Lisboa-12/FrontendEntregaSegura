@@ -1,29 +1,29 @@
 {
   "expo": {
-    "name": "entregas-seguras-front",
-    "slug": "entregas-seguras-front",
+    "name": "Entregas Seguras",
+    "slug": "entregas-seguras",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/images/logo.png",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#007BFF"
     },
-    "ios": {
-      "supportsTablet": true
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "17652cc1-96f6-4143-891a-68576e84aa3e"
+      }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.igorlisboa12.entregasseguras"
     }
   }
 }
