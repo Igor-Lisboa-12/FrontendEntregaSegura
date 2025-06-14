@@ -119,7 +119,15 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: theme.gray, padding: 20, paddingTop: 60 },
   loadingContainer: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   title: { fontSize: 28, fontWeight: 'bold', color: theme.primary, marginBottom: 20, textAlign: 'center' },
-  input: { backgroundColor: '#fff', padding: 12, borderRadius: 10, marginBottom: 15 },
+    input: { 
+    width: '100%', 
+    height: 50, 
+    marginBottom: 15, 
+    paddingLeft: 10, 
+    borderRadius: 5, 
+    backgroundColor: '#fff',
+    color: '#000'  
+  },
   textBox: { backgroundColor: '#fff', padding: 12, borderRadius: 10, marginBottom: 15 },
   text: { fontSize: 18, color: '#333' },
   button: { backgroundColor: theme.secondary, padding: 14, borderRadius: 10, marginTop: 10 },

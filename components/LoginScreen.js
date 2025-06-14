@@ -98,7 +98,15 @@ const styles = StyleSheet.create({
   logo: { width: 150, height: 150, marginBottom: 20 },
   title: { color: '#fff', fontSize: 32, fontWeight: 'bold', textAlign: 'center', marginBottom: 10 },
   loginIndex: { color: '#fff', fontSize: 18, fontWeight: 'bold', textAlign: 'center', marginBottom: 30 },
-  input: { width: '100%', height: 50, marginBottom: 15, paddingLeft: 10, borderRadius: 5, backgroundColor: '#fff' },
+    input: { 
+    width: '100%', 
+    height: 50, 
+    marginBottom: 15, 
+    paddingLeft: 10, 
+    borderRadius: 5, 
+    backgroundColor: '#fff',
+    color: '#000'  
+  },
   button: { width: '100%', padding: 14, backgroundColor: theme.secondary, borderRadius: 5, marginBottom: 20 },
   buttonText: { color: '#fff', textAlign: 'center', fontSize: 18 },
   biometricIcon: { alignItems: 'center', marginBottom: 20 },

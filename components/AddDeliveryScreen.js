@@ -100,7 +100,15 @@ const AddDeliveryScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: { flexGrow: 1, backgroundColor: theme.gray, padding: 20, paddingTop: 60 },
   title: { fontSize: 28, fontWeight: 'bold', color: theme.primary, marginBottom: 20, textAlign: 'center' },
-  input: { width: '100%', height: 50, marginBottom: 15, paddingLeft: 10, borderRadius: 5, backgroundColor: '#fff' },
+    input: { 
+    width: '100%', 
+    height: 50, 
+    marginBottom: 15, 
+    paddingLeft: 10, 
+    borderRadius: 5, 
+    backgroundColor: '#fff',
+    color: '#000'
+  },
   button: { width: '100%', padding: 14, backgroundColor: theme.secondary, borderRadius: 5, marginVertical: 10 },
   buttonText: { color: '#fff', textAlign: 'center', fontSize: 18 },
 });

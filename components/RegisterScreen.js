@@ -154,6 +154,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 10,
   },
+  input: { 
+    width: '100%', 
+    height: 50, 
+    marginBottom: 15, 
+    paddingLeft: 10, 
+    borderRadius: 5, 
+    backgroundColor: '#fff',
+    color: '#000' 
+  }
 });
 
 export default RegisterScreen;

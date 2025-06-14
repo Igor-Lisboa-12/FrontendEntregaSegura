@@ -193,7 +193,15 @@ const styles = StyleSheet.create({
   card: { backgroundColor: '#fff', borderRadius: 12, padding: 20, marginBottom: 30 },
   label: { fontWeight: 'bold', color: '#007BFF', fontSize: 18 },
   value: { fontSize: 18, marginBottom: 10, color: '#333' },
-  input: { width: '100%', height: 50, marginBottom: 15, paddingLeft: 10, borderRadius: 5, backgroundColor: '#fff' },
+    input: { 
+    width: '100%', 
+    height: 50, 
+    marginBottom: 15, 
+    paddingLeft: 10, 
+    borderRadius: 5, 
+    backgroundColor: '#fff',
+    color: '#000' 
+  },
   button: { width: '100%', padding: 14, backgroundColor: '#0056b3', borderRadius: 5, marginVertical: 10 },
   buttonText: { color: '#fff', textAlign: 'center', fontSize: 18 },
   cameraButton: { width: '100%', padding: 14, backgroundColor: '#007BFF', borderRadius: 5, marginBottom: 10 },

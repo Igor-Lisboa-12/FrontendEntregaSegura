@@ -123,7 +123,16 @@ const styles = StyleSheet.create({
   },
   detailsButton: { marginLeft: 10 },
   loadingContainer: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  emptyText: { textAlign: 'center', color: '#888', marginTop: 50 }
+  emptyText: { textAlign: 'center', color: '#888', marginTop: 50 },
+    input: { 
+    width: '100%', 
+    height: 50, 
+    marginBottom: 15, 
+    paddingLeft: 10, 
+    borderRadius: 5, 
+    backgroundColor: '#fff',
+    color: '#000' 
+  },
 });
 
 export default CompletedDeliveriesScreen;
